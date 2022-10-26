@@ -1,4 +1,4 @@
-name: BoostSecurity
+name: BoostSecurity Brakeman
 on:
   workflow_dispatch:
   push:
