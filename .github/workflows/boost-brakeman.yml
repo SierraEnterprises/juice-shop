@@ -14,7 +14,7 @@ on:
       - synchronize
 jobs:
   scanner:
-    name: boost
+    name: Brakeman
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
