@@ -24,5 +24,5 @@ jobs:
         env:
           SEMGREP_RULES: p/nodejsscan p/typescript
         with:
-          api_token: ${{ secrets.BOOST_API_PROD_TOKEN }}
+          api_token: ${{ secrets.BOOST_API_TOKEN }}
           registry_module: boostsecurityio/semgrep
